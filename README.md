@@ -16,7 +16,7 @@ This component is ment for rapid prototyping and shouldn't be used in a producti
 
 ```
   child: Image( 
-    image: LSNetworkImageNoSSL(widget.seduta.esercizi[eserciziFatti].immagine),
+    image: LSNetworkImageNoSSL("https://server.com/yourimage.jpg"),
     width: 90,
     fit: BoxFit.fill,
   )
